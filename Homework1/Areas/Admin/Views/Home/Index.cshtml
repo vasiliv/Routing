@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Admin Home Index";
+}
+
+<h2>Admin Home Index</h2>
+
+@Html.ActionLink("Link to Products Index", "Index", "Products");
+<br />
+@Html.ActionLink("Link to Products Create", "Create", "Products");
+<br />
+@Html.ActionLink("Link to Products Delete", "Delete", "Products");
+<br />
+@Html.ActionLink("Link to Main Area Home Index", "Index", "Home", new { area = "" }, null);
+<br />
